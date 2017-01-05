@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11198.2" systemVersion="15G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="jFN-Ut-dFJ">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="midtermAppPostCrash" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BADIN_LOGO_B_FLAT_WH_OL_28" translatesAutoresizingMaskIntoConstraints="NO" id="prL-ke-aKG">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="ZYy-r0-jfy"/>
+                                    <constraint firstAttribute="height" constant="120" id="ijU-bX-MVd"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Badin Cafeteria Ordering system" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jDi-DC-BZh">
+                                <frame key="frameInset" minX="78" minY="216" width="248" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Name" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MH0-B4-W9I">
+                                <frame key="frameInset" minX="139" minY="284" width="97" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Code" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QPj-m3-eC2">
+                                <frame key="frameInset" minX="139" minY="399" width="97" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qhx-M0-8yo">
+                                <frame key="frameInset" minX="166" minY="464" width="42" height="30"/>
+                                <state key="normal" title="Log in">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Email" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lUc-Rm-sdH">
+                                <frame key="frameInset" minX="139" minY="341" width="97" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.15294117647058825" green="0.35294117647058826" blue="0.16862745098039217" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="jDi-DC-BZh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CWU-Td-Viv"/>
+                            <constraint firstItem="MH0-B4-W9I" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Cbh-BE-qgK"/>
+                            <constraint firstItem="QPj-m3-eC2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="F7O-9c-AZK"/>
+                            <constraint firstItem="qhx-M0-8yo" firstAttribute="top" secondItem="QPj-m3-eC2" secondAttribute="bottom" constant="35" id="HIO-f4-JId"/>
+                            <constraint firstItem="prL-ke-aKG" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="L5X-JA-D1I"/>
+                            <constraint firstItem="qhx-M0-8yo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QDU-y8-wTS"/>
+                            <constraint firstItem="jDi-DC-BZh" firstAttribute="top" secondItem="prL-ke-aKG" secondAttribute="bottom" constant="16" id="Tig-MT-P9h"/>
+                            <constraint firstItem="qhx-M0-8yo" firstAttribute="top" secondItem="QPj-m3-eC2" secondAttribute="bottom" constant="35" id="Usz-3s-fb3"/>
+                            <constraint firstItem="lUc-Rm-sdH" firstAttribute="top" secondItem="MH0-B4-W9I" secondAttribute="bottom" constant="27" id="VsY-LZ-iPf"/>
+                            <constraint firstItem="MH0-B4-W9I" firstAttribute="top" secondItem="jDi-DC-BZh" secondAttribute="bottom" constant="47" id="WHz-hm-jww"/>
+                            <constraint firstItem="QPj-m3-eC2" firstAttribute="top" secondItem="lUc-Rm-sdH" secondAttribute="bottom" constant="28" id="asa-mE-BC0"/>
+                            <constraint firstItem="QPj-m3-eC2" firstAttribute="top" secondItem="lUc-Rm-sdH" secondAttribute="bottom" constant="28" id="crS-ge-89v"/>
+                            <constraint firstItem="lUc-Rm-sdH" firstAttribute="top" secondItem="MH0-B4-W9I" secondAttribute="bottom" constant="27" id="jcb-xA-sre"/>
+                            <constraint firstItem="prL-ke-aKG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="opU-ef-xok"/>
+                            <constraint firstItem="jDi-DC-BZh" firstAttribute="top" secondItem="prL-ke-aKG" secondAttribute="bottom" constant="16" id="qdo-dL-TiO"/>
+                            <constraint firstItem="lUc-Rm-sdH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qu2-GP-y9t"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="8CU-Ve-bEu"/>
+                    <connections>
+                        <segue destination="Mod-PI-C9j" kind="presentation" identifier="logIn" id="PNC-yb-2ct"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="871" y="134"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="a6V-cc-pSx">
+            <objects>
+                <viewController id="Mod-PI-C9j" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cx8-lm-Jhq"/>
+                        <viewControllerLayoutGuide type="bottom" id="rxJ-Pz-JgW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lsJ-FP-wdN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cpa-Cg-pDA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1695" y="146"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="eVe-Yu-Lpu">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jFN-Ut-dFJ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="h13-iy-l8q">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="m33-ss-Co3"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GBZ-Hi-sfV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="153" y="134"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BADIN_LOGO_B_FLAT_WH_OL_28" width="688" height="497"/>
+    </resources>
+</document>
