@@ -10,6 +10,13 @@ import UIKit
 
 class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate{
     
+    @IBOutlet weak var name: UITextField!
+    
+    @IBOutlet weak var email: UITextField!
+    
+    @IBOutlet weak var code: UITextField!
+    
+    
     @IBOutlet weak var dayTable: UITableView!
     
     var dayTbl=[ "Monday","Tuesday","Wednesday","Thursday","Friday"]
@@ -19,6 +26,9 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     @IBAction func login(_ sender: AnyObject) {
         performSegue(withIdentifier: "login", sender: "continue")
         print("Logging User in")
+        print(name.text)
+        print(email.text)
+        print(code.text)
         
     }
     

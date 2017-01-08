@@ -12,9 +12,17 @@ import UIKit
 
 class sides1: UIViewController{
     
+    @IBOutlet weak var answer: UILabel!
     
+    @IBOutlet weak var num1: UITextField!
     
+    @IBOutlet weak var num2: UITextField!
     
+    @IBAction func totalButton(_ sender: AnyObject) {
+        
+        answer.text = "Your total is \(Double(num1.text!)! + Double(num2.text!)!)"
+        
+    }
     
     
 }
